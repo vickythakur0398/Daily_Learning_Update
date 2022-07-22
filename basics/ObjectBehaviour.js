@@ -53,4 +53,18 @@ console.log(t1.prototype);
 Transportp { mode: 'mode', typre: 4, cost: 1000 }
 1000
 Transportp { pricee: [Function] }
-undefined
+undefined*/
+
+
+
+// if we want to add some property we can add any property in individual object or common properties in all object
+
+// addin color property in t1 
+t1.color="black";
+console.log(t1.color)
+
+// addin color in all object
+Transportp.prototype.color = "black";
+
+console.log(t2.color)
+
